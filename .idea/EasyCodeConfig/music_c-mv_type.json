@@ -1,0 +1,26 @@
+{
+  "name" : "MvType",
+  "preName" : null,
+  "comment" : "Mv_Type视频种类实体信息",
+  "templateGroupName" : null,
+  "fullColumn" : [ {
+    "name" : "typeId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "name",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.mu",
+  "savePath" : "./music/src/main/java/com/mu",
+  "saveModelName" : "music"
+}
