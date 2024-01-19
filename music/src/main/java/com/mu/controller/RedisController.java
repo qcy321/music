@@ -15,10 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 @ResponseResult
 public class RedisController {
 
-    @Autowired
+    //@Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
-    @Autowired
+    //@Autowired
     private RedisLock lock;
 
     public static int f = 100;

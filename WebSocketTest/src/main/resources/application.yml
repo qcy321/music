@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/music_c?allowMultiQueries=true&serverTimezone=UTC
     username: root
-    password: qcy96416218
+    password: 123456
   mvc:
     #http请求访问地址，请求非controller地址
     static-path-pattern: /**

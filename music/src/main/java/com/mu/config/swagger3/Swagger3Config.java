@@ -76,7 +76,7 @@ public class Swagger3Config {
                 .pathMapping("/");
     }
 
-    @Bean
+    /*@Bean
     public Docket docketB() {
         return new Docket(DocumentationType.OAS_30)
                 .enable(enable)
@@ -87,7 +87,7 @@ public class Swagger3Config {
                 .paths(PathSelectors.any())
                 .build()
                 .pathMapping("/");
-    }
+    }*/
 
     /**
      * ApiInfo：主要返回接口和接口创建者的信息
@@ -96,7 +96,7 @@ public class Swagger3Config {
         return new ApiInfoBuilder()
                 .title(applicationName)
                 .description(applicationDescription)
-                .contact(new Contact("Dream丶小强", "http://www.baidu.com", "984129236@qq.com"))
+                /*.contact(new Contact("Dream丶小强", "http://www.baidu.com", "984129236@qq.com"))*/
                 .version(applicationVersion)
                 .build();
     }
